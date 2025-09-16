@@ -1,0 +1,20 @@
+.auth-container{
+  background-color: #f54236;
+  height: 100vh;
+  width: 100vw;
+}
+.auth-inner-container{
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-btn{
+  background-color: #f54236 !important;
+  border: none !important;
+  width: 100%;
+}
+.logout-btn{
+  background-color: #f54236 !important;
+  border: none !important;
+}
