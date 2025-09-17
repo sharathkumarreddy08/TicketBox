@@ -49,7 +49,7 @@ const handleSubmit =() =>{
         sign up
       </Button>
       </Form>
-      <div style={{display:'flex',justifyContent:'center',marginTop:10}}>Already have an account? please <Card.Link href="login" style={{marginLeft:10}}>login</Card.Link> </div>
+      <div style={{display:'flex',justifyContent:'center',marginTop:10}}>Already have an account? please <Card.Link href="/login" style={{marginLeft:10}}>login</Card.Link> </div>
            </Card.Body>
         </Card>
        </Col>

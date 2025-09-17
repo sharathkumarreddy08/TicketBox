@@ -28,7 +28,7 @@ function App() {
   const handleLogout =()=>{
     localStorage.removeItem('userEmail');
     // setUser(null);
-     navigate('/login')
+     navigate('/login')//login
   }
   return(
     <div>

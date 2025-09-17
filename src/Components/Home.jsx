@@ -13,7 +13,7 @@ const [movies,setMovies] =useState([]);
     useEffect(()=>{
         const user =localStorage.getItem('userEmail');
         if(!user){
-            navigate('/login')
+            navigate('/login')//login
         }
     },[])
 

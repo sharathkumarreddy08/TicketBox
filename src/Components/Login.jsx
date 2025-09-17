@@ -42,7 +42,7 @@ const [email, setEmail] = useState("");
       </Button>
       </Form>
       <div style={{display:'flex',justifyContent:'center',marginTop:25}}>New here? please 
-         <Card.Link href="signup" style={{marginLeft:10}}>sign up</Card.Link></div>
+         <Card.Link href="/signup" style={{marginLeft:10}}>sign up</Card.Link></div>
            </Card.Body>
         </Card>
        </Col>
