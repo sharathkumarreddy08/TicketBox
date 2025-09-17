@@ -48,9 +48,9 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
+        <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/signup' element={<SignUp />}/>
-         <Route path='/home' element={<Home/>}/>
         <Route path='/movie/:id' element={<Movie/>}/>
         <Route path='/select' element={<SelectSeat/>}/>
         <Route path='/sucess' element={<Sucess/>}/>
