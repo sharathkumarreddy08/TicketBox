@@ -14,7 +14,7 @@ const [email, setEmail] = useState("");
 
     const handleLogin = () => {
         localStorage.setItem('userEmail',email)
-        navigate('/home'); 
+        navigate('/'); 
     };
     return(
         <div className="auth-container">

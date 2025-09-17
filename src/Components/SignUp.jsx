@@ -14,7 +14,7 @@ export default function SignUp(){
 const handleSubmit =() =>{
   localStorage.setItem('userEmail',email);
   
-  navigate('/home')
+  navigate('/')
 }
 
     return(
