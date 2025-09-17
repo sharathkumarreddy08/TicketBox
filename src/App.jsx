@@ -15,7 +15,7 @@ import { Button } from 'react-bootstrap';
 
 
 function App() {
-  const [user,setUser] =useState('');
+  const [user, setUser] = useState('');
   const navigate = useNavigate();
 
   useEffect(()=>{
